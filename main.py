@@ -15,7 +15,7 @@ Requirements:
 import threading
 import time
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 from pynput import keyboard
 import subprocess
