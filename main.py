@@ -15,6 +15,8 @@ Requirements:
 import threading
 import time
 
+VERSION = "1.0.0"
+
 from pynput import keyboard
 import subprocess
 import Quartz
@@ -252,7 +254,7 @@ def on_release(key):
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 def main():
-    print("🎙  Push-to-Talk daemon started")
+    print(f"🎙  Push-to-Talk v{VERSION} started")
     print("   Hold  Shift + Q  in Google Chrome to activate Onit dictation.")
     print("   Press Ctrl+C to quit.\n")
 
